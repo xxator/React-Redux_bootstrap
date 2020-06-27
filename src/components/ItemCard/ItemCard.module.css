@@ -1,0 +1,78 @@
+.rootContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 220px;
+    height: 250px;
+    font-size: 1.2rem;
+    font-family: monospace;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+
+.itemImage{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 0.5rem;
+    box-shadow: rgb(207, 207, 207) 0px 0px 10px 3px;
+}
+
+.priceAndAddContainer{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itemName{
+    margin-top: 0.5rem;
+}
+
+.priceStyle{
+    font-size: 1.4rem !important;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.addButton{
+    width: 6rem;
+    height: 1.3rem;
+    align-self: center;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+    background: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgb(194, 194, 194) 0px 0px 10px 1px;
+    transition: ease-out 0.3s;
+}
+.addButton:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(90%);
+    transition: ease-in 0.1s;
+}
+.removeButton{
+    width: 6rem;
+    height: 1.3rem;
+    align-self: center;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+    background: greenyellow;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgb(194, 194, 194) 0px 0px 10px 1px;
+    transition: ease-out 0.4s;
+}
+.removeButton:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(90%);
+    transition: ease-in 0.1s;
+}

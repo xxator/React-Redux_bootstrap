@@ -1,0 +1,9 @@
+.rootContainer{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-height: 40rem;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1rem;
+}

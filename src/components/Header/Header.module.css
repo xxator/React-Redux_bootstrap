@@ -1,0 +1,71 @@
+.rootContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.searchField{
+    background: lavender;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    padding: 0.1rem;
+    -webkit-filter: brightness(90%);
+    flex-basis: 1;
+}
+.searchFieldActive{
+    background: lavender;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    padding: 0.1rem;
+    -webkit-filter: brightness(100%);
+}
+
+.searchContainer{
+    flex-basis: 1;
+    width: 40rem;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchInput{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 0.3rem !important;
+    align-self: center;
+    margin: auto;
+    width: 80%;
+}
+.searchField:hover{
+    -webkit-filter: brightness(100%);
+}
+
+.transform{
+    -webkit-transition: ease 0.5s;
+}
+
+.appTitle{
+    font-size:2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-shadow: black 2px px 0px; */
+    font-weight: 200 !important;
+}
+
+.cost{
+    flex-basis: 1;
+    width: 40rem;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    font-family: monospace !important;
+    font-size: 1.5rem;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
